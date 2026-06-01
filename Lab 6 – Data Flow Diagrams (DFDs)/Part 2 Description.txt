@@ -1,0 +1,3 @@
+The Parking Slot Reservation System DFD models the process of viewing reservation history. The context diagram shows interactions between users, administrators, and the reservation database.
+
+The Level 1 DFD decomposes the process into authentication, retrieval of reservation records, filtering history, and displaying results. The Level 2 DFD expands the filtering process by showing how the system filters reservations using date and status criteria.

@@ -1,0 +1,44 @@
+Lab 3 – Use Case Diagrams
+
+Term Project Parking Slot Reservation System
+
+Actors
+
+DriverUser Searches for parking slots and makes reservations.
+
+Registered User A user who can log in, reserve slots, cancel reservations, and view booking history.
+
+Administrator Manages parking slots and reservation records.
+
+Payment Gateway Handles payment processing.
+
+Notification System Sends confirmation and status update messages.
+
+
+Use Cases
+
+Register Account Allows a new user to create an account.
+
+Login Allows registered users to access the system.
+
+Search Available Parking Slots Allows users to find free parking spaces.
+
+View Parking Slot Details Shows location, availability, and price.
+
+Reserve Parking Slot Allows users to book a parking space.
+
+Cancel Reservation Allows users to cancel an existing booking.
+
+Make Payment Processes payment for a reservation.
+
+Receive Reservation Confirmation Sends confirmation after successful booking.
+
+View Reservation History Allows users to view previous and active bookings.
+
+Manage Parking Slots Allows administrators to add, update, or remove slots.
+
+View Reservations Allows administrators to monitor all reservations.
+
+Update Reservation Status Allows administrators to change reservation status.
+
+Send Notifications Sends updates to users about bookings or cancellations.

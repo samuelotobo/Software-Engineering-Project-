@@ -1,0 +1,19 @@
+Lab 4 – Sequence Diagrams
+
+Part 2: Parking Slot Reservation System
+
+Key Use Case: Reserve Parking Slot
+
+Participants:
+Driver/User
+Parking Slot Reservation System
+Authentication Service
+Parking Slot Database
+Payment Gateway
+Notification Service
+
+Normal Flow:
+The user logs in and searches for available parking slots. The system checks the database and displays available slots. After the user selects a slot, the system temporarily reserves it and sends the payment request to the payment gateway. If payment is successful, the system confirms the reservation and sends a notification to the user.
+
+Alternative Flow:
+If the payment fails, the system cancels the temporary reservation and displays a payment failure message to the user.
